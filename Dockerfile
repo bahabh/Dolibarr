@@ -46,6 +46,8 @@ RUN sed -i \
 RUN apt-get update -y \
     && apt-get dist-upgrade -y \
     && apt-get install -y --no-install-recommends \
+        libmpx2 \
+        linux-libc-dev \
         libc-client-dev \
         libfreetype6-dev \
         libjpeg62-turbo-dev \
