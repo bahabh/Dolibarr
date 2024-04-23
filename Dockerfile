@@ -1,6 +1,6 @@
 ARG ARCH=
 
-FROM ${ARCH}php:8.2.17-cli-bookworm
+FROM ${ARCH}php:8.2.17-apache-bookworm
 
 ENV DOLI_VERSION 19.0.0
 ENV DOLI_INSTALL_AUTO 1
