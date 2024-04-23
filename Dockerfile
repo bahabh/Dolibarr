@@ -48,6 +48,9 @@ RUN apt-get update -y \
     && apt-get install -y --no-install-recommends \
         libmpx2 \
         linux-libc-dev \
+        libuuid1 \
+        libblkid1 \
+        libxml2 \
         libc-client-dev \
         libfreetype6-dev \
         libjpeg62-turbo-dev \
