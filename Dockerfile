@@ -1,4 +1,6 @@
-FROM php:apache2
+ARG ARCH=
+
+FROM ${ARCH}php:8.2-apache2
 
 ENV DOLI_VERSION 19.0.0
 ENV DOLI_INSTALL_AUTO 1
